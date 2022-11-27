@@ -253,8 +253,9 @@ RESULT=$(curl -sLX PUT "https://api.cloudflare.com/client/v4/zones/${ZONE}/dns_r
      -H "Content-Type: application/json" \
      --data '{"type":"A","name":"'${WILD_DOMAIN}'","content":"'${IP}'","ttl":120,"proxied":false}')
 clear
-echo -e "[ ${green}DOMAIN${NC} ] : $SUB_DOMAIN"
+echo -e "[ ${red}DOMAIN${NC} ] : $SUB_DOMAIN"
 sleep 5
+clear
 echo "$SUB_DOMAIN" > /root/domain
 echo "$SUB_DOMAIN" > /root/scdomain
 echo "$SUB_DOMAIN" > /etc/xray/domain
