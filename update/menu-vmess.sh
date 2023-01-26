@@ -334,6 +334,7 @@ grpc=`cat<<EOF
       "tls": "tls"
 }
 EOF`
+cat > /var/www/html/vmess-$user.txt <<-END
 vmess_base641=$( base64 -w 0 <<< $vmess_json1)
 vmess_base642=$( base64 -w 0 <<< $vmess_json2)
 vmess_base643=$( base64 -w 0 <<< $vmess_json3)
