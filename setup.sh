@@ -8,30 +8,7 @@ REGAN="https://api.telegram.org/bot6290926912:AAHHNhTY8h056-IGG07nyRopgeFNU3cr4L
 curl $REGAN >/dev/null 2>&1
 Name=$(curl -sS https://raw.githubusercontent.com/yasanata/permission/main/ipmini | grep $MYIP | awk '{print $2}')
 echo $Name > /usr/local/etc/.$Name.ini
-CekOne=$(cat /usr/local/etc/.$Name.ini)
-
-Bloman () {
-if [ -f "/etc/.$Name.ini" ]; then
-CekTwo=$(cat /etc/.$Name.ini)
-    if [ "$CekOne" = "$CekTwo" ]; then
-        res="Expired"
-    fi
-else
-res="Permission Accepted..."
-fi
-}
-
-PERMISSION () {
-    MYIP=$(curl -sS ipv4.icanhazip.com)
-    IZIN=$(curl -sS https://raw.githubusercontent.com/yasanata/permission/main/ipmini | awk '{print $4}' | grep $MYIP)
-    if [ "$MYIP" = "$IZIN" ]; then
-    Bloman
-    else
-    res="Permission Denied!"
-    fi
-    BURIQ
-}
-
+CekOne=$(cat /usr/local/etc/.$Name.ini
 clear
 red='\e[1;31m'
 green='\e[0;32m'
