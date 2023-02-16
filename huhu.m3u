@@ -2357,23 +2357,9 @@ http://qqtv.nl:8080/norma/12345/265922
 
 #EXTINF:-1 group-title="Sports" tvg-logo="https://cms.dmpcdn.com/livetv/2019/10/28/feddd690-f972-11e9-91cd-2f79be09d2b3_320.png",True sports HD 1
 https://sport.livedoomovies.com:4431/02_2sporthd1_720p/chunklist.m3u8|Referer="https://www.livedoomovie.com"|User-Agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36"
-https://livedoomovie5.b-cdn.net/02_2sporthd1_720p/chunklist.m3u8
+https://livedoomovie5.b-cdn.net/02_2sporthd1_720p/chunklist.mud8
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-#EXTINF:-1 group-title="Piala Dunia" tvg-logo="https://cms.dmpcdn.com/livetv/2019/10/28/1e8bbb60-f973-11e9-91cd-2f79be09d2b3_320.png",True sports HD  2
-https://sport.livedoomovies.com:4431/02_2sporthd2_720p/chunklist.m3u8|Referer="https://www.livedoomovie.com"|User-Agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36"
+#EXTINF:-1 group-title="Piala Dunia" tvg-logo="https://cms.dmpcdn.com/livetv/2019/10/28/1e8bbb60-f973-11e9-91cd-2f79be09d2b3_320.png",True sports HD  2ttps://sport.livedoomovies.com:4431/02_2sporthd2_720p/chunklist.m3u8|Referer="https://www.livedoomovie.com"|User-Agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36"
 #https://livedoomovie5.b-cdn.net/02_2sporthd2_720p/chunklist.m3u8
 
 #EXTINF:-1 group-title="Sports" tvg-logo="https://cms.dmpcdn.com/livetv/2019/10/28/2dc8f250-f973-11e9-86dd-238985cbbd60_320.png",True sports  HD 3
